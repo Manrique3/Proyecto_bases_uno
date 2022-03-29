@@ -1,0 +1,103 @@
+#fondo1{
+    background-color:rgba(245, 244, 244, 0.967);
+    width: 1070px;    
+    height: 600px;
+    border-radius: 5px 5px 5px 5px;
+    border: 0px #80808000 solid;
+
+    position: relative;
+    margin: 0 auto; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body { 
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background: linear-gradient(to left, #1107d3,#3dd2fffd);  
+    position: relative;
+    height: 900px;
+    padding-left: 40px;
+    padding-right: 40px;
+    transform: scale(0.7);
+    transform-origin: top center;
+    
+}
+#logo{
+    height: 100px;
+    width:50%;
+    position: relative;
+    right: -270px;
+    top:10px;
+   
+}
+
+.linea{
+    position: relative;
+    top:20px;
+    background-color:#000000;
+    height: 4px;
+    width: 1070px;
+
+}
+#fondo2{
+    background: linear-gradient(#f8176d, #eb7b7b); 
+    width: 1070px;
+    height: 650px;
+    position: relative;
+    top: 20px;
+    border-radius: 5px 5px 5px 5px;
+    border: 3px rgba(128, 128, 128, 0) solid;
+}
+
+
+#fondo3{
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: white;
+    height: 600px;
+    width:1016px;
+    border-radius: 5px 5px 5px 5px;
+    border: 3px rgba(128, 128, 128, 0) solid;
+}
+
+#posicion{
+    position: relative;
+    top: 30px;
+    right: -260px;
+    width: 490px;
+}
+
+#espacio{
+    height: 20px;    
+    width: 900px;
+}
+#espacio2{
+    height: 60px;    
+    width: 900px;
+}
+h2{
+    text-decoration: underline;
+    position: relative;
+    right: -110px;
+}
+
+#inputzona{
+    width: 490px;
+    position: relative;
+}
+
+#inputunk{
+    width: 490px;
+    position: relative;
+    
+}
+
+
+#Registrar{
+    position: relative;
+    top: 20px;
+    right: -376px;
+    
+}
+

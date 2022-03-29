@@ -1,0 +1,67 @@
+body { 
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background: linear-gradient(to left, #1107d3,#3dd2fffd);  
+    position: relative;
+    height: 2000px;
+    padding-left: 40px;
+    padding-right: 40px;
+    transform: scale(0.7);
+    transform-origin: top center;
+    
+   
+       
+}
+
+
+#fondo1{
+    background-color:rgba(245, 244, 244, 0.967);
+    width: 1270px;    
+    height: 1000px;
+    border-radius: 5px 5px 5px 5px;
+    border: 0px #80808000 solid;
+    
+    
+    position: relative;
+    margin: 0 auto; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+#posicion{
+    position:relative;
+    top: 40px;
+}
+#logo{
+    height: 100px;
+    width:50%;
+    position: relative;
+    right: -300px;
+    top:10px;  
+}
+
+#margen{
+    margin-left: 80px;
+    margin-top: 50px;  
+    width: 1100px ; 
+
+}
+
+.customb{
+    margin-top: 8px;
+    height: 48px;
+}
+
+#tabla_datatable{
+    
+    width: 700px;
+    margin: 0 auto;
+
+}
+
+
+#selecttienda{
+    width: 400px;
+   
+}

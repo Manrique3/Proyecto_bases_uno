@@ -1,0 +1,283 @@
+
+#logo{
+    width:300px ;
+    height:70px ;  
+    float: left;
+}
+
+#top-board{
+     width: 1300px;
+     height: 100px;
+     background-color:rgb(157, 168, 167);
+     padding-top: 10px ;
+     padding-left: 10px;
+}
+
+body{
+    margin: 0;
+    padding: 0;   
+    transform: scale(0.7);
+    transform-origin: top center; 
+}
+
+#search-box{
+    background-color:#E4E4E4;
+    border-radius:10px 0 0 10px;	
+    border:none;
+    height:29px ;
+    width:310px ; 
+    padding:5px ;
+    position:relative;
+    right: -130px;
+    top:-10px;
+}
+
+#lupa{
+    width:28px;
+    margin-top:30px;
+    background:#E4E4E4;	 
+    position: relative;
+    right: -100px;  
+    top:-3px                
+}
+#lupa:hover{
+    box-shadow: 5px 5px 8px #999;
+}
+
+#boton{
+    border-radius: 5px 5px 5px 5px;
+    position: relative;
+    top: -10px;
+    right: -200px;
+    width:130px;
+    height:40px;
+	padding: 5px 5px 5px 5px;
+	margin: 5px 10px 10px 10px;
+}
+#boton:hover{
+    box-shadow: 3px 3px 5px #999;
+ }
+
+ #boton2{
+    border-radius: 5px 5px 5px 5px;
+    position: relative;
+    top: -10px;
+    right: -200px;
+    width:150px;
+    height:39px;
+	padding: 5px 5px 5px 5px;
+	margin: 5px 10px 10px 10px;
+}
+#boton2 a{
+    color:black;
+    text-decoration:none;
+    font-size:20px;
+    position:relative;
+    top:6px;
+   
+}
+#boton2:hover{
+    box-shadow: 3px 3px 5px #999;
+
+}
+#fondo-categorias{
+    width: 1300px;
+    height: 70px;
+    background-color:rgba(192, 192, 192, 0.795);    
+}
+#categorias{
+    position: relative;
+    right: -400px;
+    top:-40px;
+
+}
+
+.limpiar{
+    background-color: black;
+    width: 1300px;
+    height: 5px;
+
+}
+h1{
+    padding: 0px;
+    margin: 10px;
+}
+#cuadro{
+    width: 1300px;
+    height: 2000px;
+    background-color: lightcyan  ;
+    
+   
+}
+#producto{
+    width: 1300px;
+    height: 1800px;
+    background-color:lightgray ;
+    padding-top: 10px ;
+    margin-top: 10px;
+
+}
+.pro1{
+    position: relative;
+    top:-250px;
+    margin-left: 300px;
+
+}
+.imagen1{
+    width:250px;
+    height: 250px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border:5px 5px 5px 5px black;   
+    border-radius: 5px 5px 5px 5px;
+    border-style: solid;        
+}
+.boton3{
+    border: 2px black groove;
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    width: 70px;
+    position:relative;
+    top:-200px;
+    right: -400px;
+
+}
+.boton3 a{
+    text-decoration: none;
+    color: black;
+  }
+.boton3 a:hover{
+    box-shadow: 4px 4px 7px #999;
+
+}
+.linea{
+    position: relative;
+    top:-70px;
+    background-color:black;
+    height: 4px;
+    width: 1200px;
+
+}
+#carrito{
+    position: relative;
+    right: -800px;
+    top: -1681px;
+    height:2000px ;
+    width: 500px;
+    background-color: rgb(49, 134, 231);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;      
+}
+.linea2{
+    position: relative;
+    background-color: black;
+    height: 3px;
+    width: 500px;
+
+}
+.imagen{
+    width: 100px;
+    height: 100px;
+    border: 2px 2px 2px 2px black;
+    margin-left: 20px;
+    margin-top: 20px;   
+    border-radius: 5px 5px 5px 5px;
+    border-style: solid;  
+}
+#unico-carrito{
+       width: 50px;
+       height:50px; 
+       position: relative ;
+       top:-20px;
+       right: -200px;
+       
+}
+#numero{
+    position: relative;
+    right: -220px;
+    top:-20px;
+    color: white;
+    font-size: large;
+}
+
+.carrito-pro{   
+    margin-left:150px ;
+    color:white;
+    position: relative;
+    top:-80px;
+
+}
+#orden a{
+    font-size: large;
+    position: relative;
+    right: 130px;
+}
+#stepper{
+    width: 40px;
+    position: relative;
+    right: -300px;
+    top: -115px;
+}
+.botoneliminar{
+    border: 2px black groove;
+    border-radius: 5px 5px 5px 5px;
+    width: 80px;
+    height: 25px;
+    position: relative;
+    right: -360px;
+    top:-138px;
+    background-color: white;
+}
+.botoneliminar a {
+    margin-left: 135px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+
+}
+.botoneliminar a:hover{
+    box-shadow: 2px 2px 5px #999;
+}
+.eliminartodo{   
+    border: 2px black groove;
+    border-radius: 5px 5px 5px 5px;
+    width: 120px;
+    height: 5px;
+    position: relative;
+    right: -50px;
+    top:-38px;
+    background-color: white;
+    padding:10px;
+    box-shadow: 2px 2px 5px #999;
+}
+.eliminartodo a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top:-10px;
+    left:-10px;        
+}
+.eliminartodo a:hover{
+    box-shadow: 5px 5px 7px #999;
+}
+#pagar{
+    border: 2px black groove;
+    border-radius: 5px 5px 5px 5px;
+    width: 120px;
+    height: 5px;
+    position: relative;
+    right: -240px;
+    top:-66;
+    background-color: white;
+    padding:10px;
+    box-shadow: 2px 2px 5px #999;
+}
+#pagar a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top:-10px;
+    left:-10px;        
+}
+

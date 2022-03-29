@@ -1,0 +1,146 @@
+
+#logo{
+    width:300px ;
+    height:70px ;
+  
+    float: left;
+}
+
+#top-board{
+     width: 1300px;
+     height: 100px;
+     background-color:rgb(52, 53, 53);
+     padding-top: 10px ;
+     padding-left: 10px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#search-box{
+    background-color:#E4E4E4;
+    border-radius:10px 0 0 10px;	
+    border:none;
+    height:29px ;
+    width:310px ; 
+    padding:5px ;
+    position:relative;
+    right: -130px;
+    top:-10px;
+}
+
+#magnifying-glass{
+    width:28px;
+    margin-top:30px;
+    background:#E4E4E4;	 
+    position: relative;
+    right: -100px;  
+                 
+}
+
+#boton{
+    border: 3px #3336f5 groove;
+    border-radius: 5px 5px 5px 5px;
+    position: relative;
+    top: -50px;
+    right: -900px;
+    width:110px;
+    height:40px;
+	padding: 5px 5px 5px 5px;
+	margin: 5px 10px 10px 10px;background-color: rgb(250, 237, 237);
+}
+#boton a{
+         color:black;
+		 text-decoration:none;
+		 font-size:20px;
+		 position:relative;
+         top:7px;
+         
+         
+}
+#boton a:hover{
+    text-decoration:underline;
+ 
+ }
+
+ #boton2{
+    border: 3px #5145bb groove;
+    border-radius: 5px 5px 5px 5px;
+    position: relative;
+    top: -116px;
+    right: -1050px;
+    width:110px;
+    height:40px;
+	padding: 5px 5px 5px 5px;
+    margin: 5px 10px 10px 10px;
+    background-color: rgba(201, 201, 201, 0.918);
+
+}
+#boton2 a{
+    color:black;
+    text-decoration:none;
+    font-size:20px;
+    position:relative;
+    top:-4px;
+    
+}
+#boton2 a:hover{
+    text-decoration: underline;
+
+}
+#fondo-categorias{
+    width: 1300px;
+    height: 70px;
+    background-color:rgba(250, 62, 125, 0.795);  
+
+}
+
+
+
+.limpiar{
+    clear: both;
+
+}
+h1{
+    padding: 0px;
+    margin: 10px;
+}
+#cuadro{
+    width: 1300px;
+    height: 10000px;
+    background-color:  rgb(12, 104, 165)  ;
+    padding-top: 7px ;
+    padding-left: 10px;
+   
+}
+#producto{
+    width: 1300px;
+    height: 10000px;
+    background-color: rgb(241, 241, 241) ;
+    padding-top: 10px ;
+
+}
+#imagen1{
+    margin-left: 10px;
+    border: black;
+    border-radius: 5px 5px 5px 5px;
+    border-style: solid;
+}
+#pro1{
+    position: relative;
+    top:-250px;
+    margin-left: 300px;
+
+}
+h2{
+
+
+}
+
+
+
+
+

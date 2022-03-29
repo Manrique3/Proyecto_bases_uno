@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>UCABMART</title>
+
+        <link rel="stylesheet" type="text/css" href="../static/add_ons/bootstrap-4.0.0-dist/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="../static/css/registro_horario.css"  >
+        
+        <script src="../static/add_ons/jquery/jquery-1.11.2.js"></script>
+        <script src="../static/js/registro_horario.js"></script>
+
+        <meta charset="utf-8">
+        
+    </head> 
+    
+    <body>
+           
+       
+    <div id="fondo1">     
+
+        <a href="/"><img id="logo" src="../static/media/UCABMART6.png" ></a>
+
+        <div class="linea"></div>        
+
+        <div id="fondo2">
+
+            <form>
+
+                <div id="espacio"></div> 
+
+                <div id="fondo3" class="form-group">
+                    
+                    <div id="posicion"> 
+
+                        <h2> Registro de Horario</h2>
+
+                        <div id="espacio2"></div>                
+
+                        <h4 >Descripcion</h4>
+                        
+                        <input id="inputhorario" name="inputhorario" class="form-control"  type="text" placeholder="Descripcion del Horario" required autofocus>                 
+
+                        <div id="espacio"></div>  
+
+                        <h4 >Dia</h4>
+                                
+                        <select name="selectdia" id="selectdia" class="custom-select browser-default" required autofocus>
+                            <option value="" selected disabled>DIA</option>
+                            <option value="LUNES">LUNES</option>                            
+                            <option value="MARTES">MARTES</option>   
+                            <option value="MIERCOLES">MIERCOLES</option>
+                            <option value="JUEVES">JUEVES</option>                            
+                            <option value="VIERNES">VIERNES</option>   
+                            <option value="SABADO">SABADO</option>  
+                            <option value="DOMINGO">DOMINGO</option>          
+                        </select> 
+
+                        <div id="espacio"></div>  
+
+                          
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <h4>Hora Entrada</h4>
+                                <input id="inputhorae" name="inputhorae" class="form-control"  type="time" placeholder="Hora Entrada" required autofocus>
+                            </div>
+                            <div class="form-group col">
+                                <h4>Hora Salida</h4>
+                                <input id="inputhoras" name="inputhoras" class="form-control"  type="time" placeholder="Hora Salida" required autofocus>  
+                            </div>
+                        </div>    
+
+                        <div id="espacio"></div>  
+
+                        <h5 class="form-text text-danger">
+                            <p id="m_invalido"></p>
+                        </h5>   
+
+                        <button id="Registrar" class="btn btn-lg btn-primary" type ="submit">Registrar</button>
+
+                    </div>   
+
+                </div>
+
+            </form>    
+
+        </div>            
+
+    </div>
+        
+          
+
+    </body>
+
+</html>

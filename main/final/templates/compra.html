@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>UCABMART</title>
+    
+    <link rel="stylesheet"type="text/css" href="../static/add_ons/bootstrap-4.0.0-dist/css/bootstrap.css">
+    <link rel="stylesheet"type="text/css" href="../static/add_ons/datatables/css/jquery.dataTables.css">
+    
+    <link href="../static/css/compra.css" rel="stylesheet" type="text/css" >
+   
+
+    <script src="../static/add_ons/jquery/jquery-1.11.2.js"></script>   
+    <script src="../static/add_ons/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="../static/add_ons/datatables/js/jquery.dataTables.js"></script>   
+    <script src="../static/add_ons/datatables/js/dataTables.bootstrap4.min.js"></script>
+
+
+    <script src="../static/js/metodo_compra.js"> </script>
+    <script src="../static/js/compra.js"> </script>
+    
+
+
+    <meta charset="utf-8">
+
+</head>
+
+<body>
+  
+    <div id="fondo1"> 
+        <a href="../"><img type="image" id="logo" src="../static/media/UCABMART6.png"> </a>
+
+        <div class="linea"> </div>
+
+        <div id="fondo2">           
+        
+            <div id="fondo3"> 
+
+                <div id="margen"> 
+
+                    <h1 id="titulo">Finalizar Compra</h1>
+                    <div id="espacio"></div>   
+                        
+                    <div class="row">
+                        <div class="col mr-auto">
+                            <button id="boton_regresar" class="btn btn-lg btn-secondary" type ="button">Regresar</button>
+                        </div>
+                        <div class="col-auto">
+                            <button id= "boton_continuar" class="btn btn-lg btn-primary" type="button">Continuar</button>
+                        </div>
+                    </div>
+                    
+                    <div id="espacio"></div>   
+                    <div id="espacio"></div>  
+                    <h4 id="titulo2">Metodo de Pago</h4>
+                    <div id="espacio"></div>   
+
+                    <div id="tabla_carrito">                      
+                                                
+                        <table id="tabla_datatable" class="display nowrap">  </table>
+                        
+                        <div class="row mt-3">
+                            <div class="col mr-auto">  
+                                <h4 id="total"></h4>  
+                            </div>                  
+                            <div class="col-auto">
+                                <h4 id="restante"></h3>
+                            </div>
+                        </div>
+                        
+                     
+                        <div id="espacio"></div>   
+
+
+                        <div class="form-row">
+                            <div class="form-group col pr-5">
+                                <input id="input_doc" class="form-control"  type="text" placeholder="Documento">
+                            </div>
+                            <div class="form-group col-md-5 ">
+                                <select name="selecttipo" id="selecttipo" class="custom-select browser-default" >
+                                    <option value="default" selected disabled>TIPO DE PAGO</option>      
+                                </select>  
+                             
+                            </div>
+                        </div>                         
+                        
+                        <div class="input-group mt-s">
+                                                        
+                            <input id="input_cantidad" class="form-control mr-3"
+                            type="text" pattern="[0-9]*" placeholder="Cantidad">
+
+                            <span class="input-group-text mr-3" id="basic-addon2"> x </span>
+
+                            <select name="selectmoneda" id="selectmoneda" class="custom-select browser-default">
+
+                                <option value="default" selected disabled>MONEDA</option>      
+    
+                            </select> 
+
+                            <button id= "boton_añadir" class="btn btn-primary ml-3 mr-3" type="button">Añadir</button>
+                            
+                            <button id= "boton_eliminar" class="btn btn-danger" type="button">Eliminar</button>
+                            
+                        </div>
+
+        
+                    </div>
+
+                </div>
+
+            </div>      
+      
+              
+                            
+        </div>
+        
+    
+    </div> 
+
+    
+        
+    
+                      
+</body>           
+</html>

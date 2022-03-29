@@ -1,0 +1,241 @@
+<<<<<<< HEAD
+ti_nombre,nom_cliente,cant_compras,max
+UCABmart - Barrancas,"FABIANO LEONARDO, JONES GODINEZ",3,238500000
+UCABmart - Barcelona,"CEMNCA, C.A.",1,16000000
+UCABmart - Coro,"LEONARDO ELEAZAR, BALLESTEROS CASTILLO",3,238500000
+UCABmart - Antimano,"AURELIO CLAUDIO, OLIVAREZ ARROYO",3,466000000
+UCABmart - Puerto Ayacucho,"Papeleria y algo mas, S.A.",1,16000000
+UCABmart - Barrancas,"BarrancaStereo 102.5 FM, S.A.",1,16000000
+UCABmart - Valle la Pascua,"BEATRIZ MYRTA, VIGIL BRIONES",3,466000000
+UCABmart - Biruaca,"CLEMENTE BENIGNO, PAZ LEE",3,238500000
+UCABmart - San Cristobal,"VALERIA BERNARDA, IGLESIAS FUNES",3,466000000
+UCABmart - Acarigua,"Garzon Supermercado, C.A.",1,16000000
+UCABmart - Merida,"WILLIAM TORIBIO, GALVEZ CASTANON",3,238500000
+UCABmart - La Victoria,"Renacer Spa Center, S.A.",1,16000000
+UCABmart - Carora,"TRINIDAD SAIDA, GRIEGO CANTU",3,466000000
+UCABmart - El Tigre,"Eurobuilding Express El Tigre, C.A.",1,16000000
+UCABmart - Puerto Ordaz,"IVES JUSTO, MORIN UMANA",3,466000000
+UCABmart - La Victoria,"GINA ELVIRA, GRIJALVA LEON",3,466000000
+UCABmart - Ciudad Bolivar,"CPI Dr Carlos Hernandez Acosta, S.A.",1,16000000
+UCABmart - Coro,"VANESA MURIEL, MARTINEZ MADERA",3,466000000
+UCABmart - Barinas,"AURORA RAMONA, COX HOLGUIN",3,466000000
+UCABmart - Casacoima,"MIRANDA NIEVES, ROSADO BARRAGAN",3,466000000
+UCABmart - Petare,"El Rincon Del Sabor de Petare, S.A.S.",1,16000000
+UCABmart - Naguanagua,"ADRIAN AMILCAR, BARBOSA ALVAREZ",3,238500000
+UCABmart - Trujillo,"TANIA OLIVIA, SANCHEZ VALDEZ",3,466000000
+UCABmart - Los Teques,"SALVADOR LUCAS, CANTU SUAZO",3,238500000
+UCABmart - San Fernando de Apure,"BELINDA BELLA, ROBLES LIMA",3,466000000
+UCABmart - El Amparo,"FULGENCIO LIONEL, TAYLOR TINOCO",3,238500000
+UCABmart - Ciudad Bolivar,"POLA RAMONA, HENRIQUEZ ALVA",3,466000000
+UCABmart - San Fernando de Atabapo,"DAMARIS CONSUELO, PEREIRA IBARRA",3,466000000
+UCABmart - Casacoima,"JAYDEN JUSTINIANO, PELAEZ TRINIDAD",3,238500000
+UCABmart - Maiquetia,"AYALA PETRONILA, VACA PERALES",3,466000000
+UCABmart - El Junquito,"Ferreteria La Montana, S.A.",1,16000000
+UCABmart - Tucupita,"Laboratorio Clinico Santisima Trinidad, C.A.",1,16000000
+UCABmart - Tinaquillo,"JUVENAL FRANCISCO, LOPEZ ROLON",3,238500000
+UCABmart - Ciudad Bolivar,"WILLIAM BENITO, TORO CORIA",3,238500000
+UCABmart - Barinas,"Living Hotel, C.A.",1,16000000
+UCABmart - Chaguaramas,Licoreria dona altagracia,1,16000000
+UCABmart - Los Teques,"TenientePizza, S.A.",1,16000000
+UCABmart - Valle la Pascua,Unidad De Atencion Respiratoria Respisalud CA,1,16000000
+UCABmart - Valle la Pascua,"FOSTER DIOSDADO, VILLAGOMEZ IZQUIERDO",3,238500000
+UCABmart - Los Teques,"JORDANA MARIANA, HARRIS CACERES",3,466000000
+UCABmart - Margarita,"Amaranto, S.A.",1,16000000
+UCABmart - El Cafetal,"CESAR CRISTIANO, CASTREJON VALDOVINOS",3,466000000
+UCABmart - El Amparo,"AMANDA AURELIA, BARAJAS FOSTER",3,466000000
+UCABmart - Petare,"ROSA MATILDE, RODARTE DELATORRE",3,238500000
+UCABmart - Urena,"VICENTE LINCOLN, QUIROZ VILLAGOMEZ",3,238500000
+UCABmart - Chaguaramas,"DAFNE FABRICIA, SOTO FERRER",3,466000000
+UCABmart - San Casimiro,CENTRO MEDICO SAN PABLO c.a,1,16000000
+UCABmart - Margarita,"ANTONIO ELOY, ARGUETA DAVIS",3,238500000
+UCABmart - Tinaquillo,"Bioanalisis Biolab, C.A.",1,16000000
+UCABmart - Urena,"FISIOTERAPIA BEATRIZ MALDONADO, S.A.",1,16000000
+UCABmart - Ciudad Ojeda,"Centro Clinico La Sagrada Familia, S.A.",1,16000000
+UCABmart - Maracay,"INOCENCIO ITALO, ROBLES TOLENTINO",3,238500000
+UCABmart - Biruaca,"GENESIS GABRIELA, RAMOS CINTRON",3,466000000
+UCABmart - Quiriquire,"MABEL BETTY, CAMACHO GUDINO",3,238500000
+UCABmart - Paraguana,"AMANDA CAROLINA, DELATORRE PERRY",3,466000000
+UCABmart - El Cafetal,"VICENTE ALFREDO, BAHENA CARRENO",3,238500000
+UCABmart - Carupano,"MYRIAM NAOMI, PARTIDA ARTEAGA",3,238500000
+UCABmart - Anaco,"MARIAM ANUNCIACION, MEDRANO BALDERRAMA",3,238500000
+UCABmart - Urena,"ROXANA BIANCA, CARDENAS JORDAN",3,466000000
+UCABmart - Pampatar,"TIFFANY MERCEDES, ROLDAN SORIANO",3,466000000
+UCABmart - Maracaibo,"Viacasa Automercados, C.A.",1,16000000
+UCABmart - Tariba,"Repuestos RLX, C.A.",1,16000000
+UCABmart - San Felix,"OCTAVIO DAVID, CHAVIRA SMITH",3,238500000
+UCABmart - Puerto La Cruz,"PETRONILO JUSTIN, RAMOS ECHEVERRIA",3,238500000
+UCABmart - Casacoima,"CENTRO MATERNO PROCREAR, C.A.",1,16000000
+UCABmart - Trujillo,"CELSO CICERON, NOLASCO SANABRIA",3,238500000
+UCABmart - Naguanagua,"Daka, C.A.",1,16000000
+UCABmart - Yaguaraparo,"ALFREDO JAIME, VERDUGO RESTREPO",3,238500000
+UCABmart - Anaco,"EMPERATRIZ DAFNE, ANGELES JUAREZ",3,466000000
+UCABmart - Villa de Cura,"ALBERTO BRANDON, GUARDADO ELIZONDO",3,238500000
+UCABmart - Naguanagua,"CLAUDIA AMARA, ROMAN HOLGUIN",3,466000000
+UCABmart - Ciudad Ojeda,"LUDMILA BIANCA, SAAVEDRA ORONA",3,466000000
+UCABmart - Caripe,"Surtialimentos El Guacharito, C.A.",1,16000000
+UCABmart - Pampatar,"Sambil Margarita, C.A.",1,16000000
+UCABmart - Maracay,"ADAN MARCIAL, VEGA LOVATO",3,466000000
+UCABmart - Tinaquillo,"MIREYA MARIANA, WHITE CASTREJON",3,466000000
+UCABmart - Puerto Ayacucho,"TANIA ADELA, SANCHEZ BARBOSA",3,466000000
+UCABmart - Maiquetia,"CESARINO DANTE, MANZO NAVARRETE",3,238500000
+UCABmart - Guanta,"JOCELYNNE MARISOL, SUAREZ MONCADA",3,466000000
+UCABmart - Valencia,"LORENZO CEFERINO, CONTRERAS BALDERRAMA",3,466000000
+UCABmart - Girardot,"MILENA LUCILA, MACEDO PALMA",3,466000000
+UCABmart - San Felix,"La Casona de la Carne, C.A.",1,16000000
+UCABmart - El Junquito,"FIDEL ALFREDO, CASTANEDA VILLA",3,238500000
+UCABmart - Yaguaraparo,"ANTONIA MARISOL, VERA PASCUAL",3,466000000
+UCABmart - Valencia,"MELCHOR SERGIO, DELAGARZA LARA",3,238500000
+UCABmart - Carupano,"ALVARA ANASTASIA, APARICIO TAFOYA",3,466000000
+UCABmart - Tucacas,"MARTIN GERMAN, VAZQUEZ THOMAS",3,238500000
+UCABmart - Villa de Cura,"VIDASALUD Estetica & Odontologia, C.A.",1,16000000
+UCABmart - Guanare,"TRINIDAD RENATA, ROSADO AVELAR",3,466000000
+UCABmart - Girardot,"Marriott Maracay Hotel & Golf, C.A.",1,16000000
+UCABmart - Coro,"Supermercado Hong Kong, S.A.",1,16000000
+UCABmart - San Felix,"JANE MIA, MACEDO HENRIQUEZ",3,466000000
+UCABmart - San Casimiro,"ALFREDO LEOPOLDO, GIRON VALENTIN",3,238500000
+UCABmart - Maracaibo,"JUSTO VICTOR, PALMA VELEZ",3,238500000
+UCABmart - Barinas,"ALEJANDRO AMADOR, WILLIAMS FABIAN",3,238500000
+UCABmart - Paraguana,"Policlinica Especialidades, S.A.",1,16000000
+UCABmart - Carora,"ELIZABETH VIVIANA, MARTINES OJEDA",3,238500000
+UCABmart - San Cristobal,"IVES DIOSDADO, ALONZO MANZANARES",3,238500000
+UCABmart - Acarigua,"JUVENAL FABIO, SEGURA PULIDO",3,238500000
+UCABmart - Villa de Cura,"VICTORIA MAXIMINA, PERAZA CANTU",3,466000000
+UCABmart - San Felipe,"SILVESTER CRISTIANO, TORO ASCENCIO",3,238500000
+UCABmart - Barcelona,"TITO JOSE, RIVAS GONZALES",3,238500000
+UCABmart - San Felipe,"CELIA MIRELLA, GARRIDO JAUREGUI",3,466000000
+UCABmart - Guanare,"VALERIO GABRIEL, PINA ANGELES",3,238500000
+UCABmart - Valencia,"Hesperia WTC Valencia, C.A.",1,16000000
+UCABmart - Chivacoa,"SEBASTIAN FOSTER, JAVIER LEAL",3,238500000
+UCABmart - Anaco,"HOTEL SIRACUSA, S.A.",1,16000000
+UCABmart - San Antonio de los Altos,"LEO CARMONA, MATIAS RESENDEZ",3,466000000
+UCABmart - Costa Oriental del Lago,"JUVENAL ELIDIO, MORENO BARCENAS",3,238500000
+UCABmart - La Puerta,"FABIAN MARTINIANO, MOREIRA ADAMS",3,238500000
+UCABmart - La Guaira,"OLIVER BRUNO, FLORES DAVIS",3,238500000
+UCABmart - Puerto Ayacucho,"ANGEL MARCOS, PORRAS GASTELUM",3,238500000
+UCABmart - Barquisimeto,"ELOISA PASTORA, ARANGO JARAMILLO",3,466000000
+UCABmart - Tucacas,"INOCENCIA MYRIAM, CABRAL MACIEL",3,466000000
+UCABmart - San Felipe,"Camara De Comercio De Yaracuy, C.A.",1,16000000
+UCABmart - Guanta,"Italpizzas, C.A.",1,16000000
+UCABmart - Tucacas,"Marina Puerto Varadero Yacht Club, C.A.",1,16000000
+UCABmart - Puerto La Cruz,"LARA ALICIA, OLVERA DELGADILLO",3,466000000
+UCABmart - Ciudad Ojeda,"FABIO FAUSTINIANO, REYES LOYA",3,238500000
+UCABmart - Chaguaramas,"HERCULES HERCULES, CEDILLO MELO",3,238500000
+UCABmart - El Cafetal,"Restaurant Alto, C.A.",1,16000000
+UCABmart - San Fernando de Apure,"JAIME MAGNUS, GALAN FLORES",3,238500000
+UCABmart - Puerto Ordaz,"Clinica La Esperanza, S.A.",1,16000000
+UCABmart - Carupano,"Imagenes Medicas Carupano, C.A",1,16000000
+UCABmart - Chivacoa,"SILVANA ADELINA, HENDERSON LUEVANO",3,466000000
+UCABmart - Merida,"NAFU, S.A.",1,16000000
+UCABmart - Caripe,"YVES KEVIN, SULLIVAN ARAIZA",3,238500000
+UCABmart - Paraguana,"FELIX YOVANNI, JARAMILLO CASTREJON",3,238500000
+UCABmart - San Casimiro,"MARCO CLEMENTE, NARANJO CORONADO",3,466000000
+UCABmart - Costa Oriental del Lago,"SILLAPLACE MARACAIBO, C.A.",1,16000000
+UCABmart - Tucupita,"ALEXANDER JORGE, LOZADA ROJO",3,238500000
+UCABmart - La Victoria,"CHRISTIAN ROMULO, MATEO CARRILLO",3,238500000
+UCABmart - Barquisimeto,"Lidotel Hotel Boutique Barquisimeto, C.A.",1,16000000
+UCABmart - Carora,"Traki carora, S.A.",1,16000000
+UCABmart - Quiriquire,"MOIRA AMPARO, PERAZA MORIN",3,466000000
+UCABmart - Puerto La Cruz,"Everfit, S.A.S.",1,16000000
+UCABmart - La Puerta,"Centro Comercial Valle Verde, C.A.",1,16000000
+UCABmart - Merida,"SHEILA TANIA, ZACARIAS LARA",3,466000000
+UCABmart - Trujillo,"Pueblo Tantodi, S.A.",1,16000000
+UCABmart - Tariba,"EMILIA CONSTANCIA, JORDAN MOLINA",3,466000000
+UCABmart - La Guaira,"AMBULATORIO DE MAIQUETIA, S.A.S.",1,16000000
+UCABmart - San Cristobal,"Posada Los Nonos, S.R.L.",1,16000000
+UCABmart - La Guaira,"URSULA BETSABE, FRANCISCO COVARRUBIAS",3,466000000
+UCABmart - Barrancas,"BLANCA BELINDA, PHILLIPS SAAVEDRA",3,466000000
+UCABmart - El Junquito,"ALBA AURELIA, REYNA HENDERSON",3,466000000
+UCABmart - Maracaibo,"MAXIMILIANO ROMEO, ROYBAL VAZQUEZ",3,466000000
+UCABmart - Petare,"OCTAVIO MARTIN, BOLANOS WATSON",3,466000000
+UCABmart - Margarita,"FLOR CHRISTIANE, VALLEJO JACKSON",3,466000000
+UCABmart - San Antonio de los Altos,"Centro De Diagnostico Los Salias, C.A.",1,16000000
+UCABmart - Yaguaraparo,"Inversiones CR23, C.A.",1,16000000
+UCABmart - Barcelona,"CLARENCE BENEDICTO, DELRIO CARDOSO",3,466000000
+UCABmart - Acarigua,"CANDELARIA LUCIA, CLAUDIO MANRIQUEZ",3,466000000
+UCABmart - Caripe,"BETTY HAYDEE, CARVAJAL VILLALPANDO",3,466000000
+UCABmart - Tariba,"CESAR ELEAZAR, LEBRON TEJADA",3,238500000
+UCABmart - San Fernando de Apure,"D&D Inn Tibana, S.A.",1,16000000
+UCABmart - El Tigre,"EDUARDO JUVENAL, BARBOSA GASTELUM",3,238500000
+UCABmart - Antimano," Hospital General Dr. Jose Ignacio Baldo, C.A.",1,16000000
+UCABmart - Maracay,"Supermercado Luxor, S.A.S.",1,16000000
+UCABmart - Tucupita,"HERIBERTA ANUNCIACION, YEPEZ PEREZ",3,466000000
+UCABmart - San Antonio de los Altos,"FLOR SOFIA, LEDEZMA LARIOS",3,238500000
+UCABmart - Barquisimeto,"DANTE PACIANO, LUIS FLORES",3,238500000
+UCABmart - San Fernando de Atabapo,"EMILIO RENATO, FLORES ROMAN",3,238500000
+UCABmart - Quiriquire,"SUPERPAN NICOL, C.A.",1,16000000
+UCABmart - Maiquetia,"diadia Soublette, S.R.L.",1,16000000
+UCABmart - Chivacoa,"Farmahorro Chivacoa, C.A.",1,16000000
+UCABmart - San Fernando de Atabapo,"Reserva Natural MORU, S.A.",1,16000000
+UCABmart - Puerto Ordaz,"VICTORIANO MARCIAL, APARICIO OLIVERA",3,238500000
+UCABmart - Biruaca,"centro financiero, C.A.",1,16000000
+UCABmart - La Puerta,"NATHALY MELINA, VACA ARANDA",3,466000000
+UCABmart - Guanta,"MAGNUS FABIO, PERALES HUIZAR",3,238500000
+UCABmart - Girardot,"DOLORES CARLOTA, CASANOVA LEYVA",3,238500000
+UCABmart - El Amparo,"Supermercado La Cumbre, C.A.",1,16000000
+UCABmart - Costa Oriental del Lago,"THAIS MAXIMINA, JIMENEZ GUADARRAMA",3,466000000
+UCABmart - Antimano,"CANDELARIA IMELDA, PADILLA VELIZ",3,238500000
+UCABmart - Guanare,Clinica Los Proceres C.A.,1,16000000
+UCABmart - El Tigre,"ALVARA ALTAGRACIA, TRUJILLO CARDENAS",3,466000000
+UCABmart - Pampatar,"CARLOTA EMILIA, PARTIDA IBARRA",3,238500000
+=======
+,ti_codigo,ti_nombre,ti_ingresos,ti_egresos
+0,1,UCABmart - El Cafetal,43000000.0,
+1,2,UCABmart - Petare,43000000.0,
+2,3,UCABmart - Antnmano,43000000.0,
+3,4,UCABmart - Valencia,43000000.0,
+4,5,UCABmart - Maracaibo,16000000.0,
+5,6,UCABmart - Maracay,,
+6,7,UCABmart - La Guaira,,
+7,8,UCABmart - Maiquetna,,
+8,9,UCABmart - Barquisimeto,,
+9,10,UCABmart - Puerto Ordaz,,
+10,11,UCABmart - Puerto La Cruz,,
+11,12,UCABmart - Carnpano,,
+12,13,UCABmart - El Tigre,,
+13,14,UCABmart - San Cristnbal,,
+14,15,UCABmart - Margarita,,
+15,16,UCABmart - Coro,,
+16,17,UCABmart - Guanare,,
+17,18,UCABmart - Trujillo,,
+18,19,UCABmart - Mnrida,,
+19,20,UCABmart - San Fernando de Apure,,
+20,21,UCABmart - Paraguann,,
+21,22,UCABmart - Los Teques,,
+22,23,UCABmart - Barinas,,
+23,24,UCABmart - Valle la Pascua,,
+24,25,UCABmart - Anaco,,
+25,26,UCABmart - Tucacas,,
+26,27,UCABmart - Barcelona,,
+27,28,UCABmart - Urena,,
+28,29,UCABmart - San Casimiro,,
+29,30,UCABmart - Guanta,,
+30,31,UCABmart - Costa Oriental del Lago,,
+31,32,UCABmart - Ciudad Bolnvar,,
+32,33,UCABmart - San Fnlix,,
+33,34,UCABmart - San Antonio de los Altos,,
+34,35,UCABmart - Ciudad Ojeda,,
+35,36,UCABmart - Carora,,
+36,37,UCABmart - Acarigua,,
+37,38,UCABmart - La Victoria,,
+38,39,UCABmart - Villa de Cura,,
+39,40,UCABmart - Tnriba,,
+40,41,UCABmart - Puerto Ayacucho,,
+41,42,UCABmart - San Fernando de Atabapo,,
+42,43,UCABmart - Biruaca,,
+43,44,UCABmart - Barrancas,,
+44,45,UCABmart - Naguanagua,,
+45,46,UCABmart - Tinaquillo,,
+46,47,UCABmart - Girardot,,
+47,48,UCABmart - Tucupita,,
+48,49,UCABmart - Casacoima,,
+49,50,UCABmart - El Junquito,,
+50,51,UCABmart - Chaguaramas,,
+51,52,UCABmart - El nmparo,,
+52,53,UCABmart - Caripe,,
+53,54,UCABmart - Quiriquire,,
+54,55,UCABmart - Pampatar,,
+55,56,UCABmart - Yaguaraparo,,
+56,57,UCABmart - La Puerta,,
+57,58,UCABmart - San Felipe,,
+58,59,UCABmart - Chivacoa,,
+>>>>>>> bc7dba63fb5a77c3a09278f49a61abc010424fe8

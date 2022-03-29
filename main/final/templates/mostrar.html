@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+   
+    <meta name="viewport" content="width=device-width" />
+    <title>UCABMART</title>
+
+    <meta charset="utf-8">    
+
+    <link rel="stylesheet"type="text/css" href="../static/add_ons/bootstrap-4.0.0-dist/css/bootstrap.css">
+    <link rel="stylesheet"type="text/css" href="../static/add_ons/datatables/css/jquery.dataTables.css">
+    <link rel="stylesheet"type="text/css" href="../static/css/mostrar.css">
+
+
+
+    <script src="../static/add_ons/jquery/jquery-1.11.2.js"></script>
+    <script src="../static/add_ons/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="../static/add_ons/datatables/js/jquery.dataTables.js"></script>   
+    <script src="../static/add_ons/datatables/js/dataTables.bootstrap4.min.js"></script>
+
+
+   
+    <script>
+        var nombre = (window.location.pathname.split('/'))[2];
+        console.log(nombre)
+
+        let myScript = document.createElement("script");
+        myScript.setAttribute("src", "../static/js/mostrar_"+nombre+".js");
+        document.head.appendChild(myScript);    
+    </script>
+  
+  
+</head>
+
+<body>
+
+    <div id="fondo1">
+       
+        <section id="posicion">
+            <a href="../"><img type="image" id="logo" src="../static/media/UCABMART6.png"></a>
+            
+            <div id="margen">
+                
+                <h3 id = "titulo" class="text-center"></h3>
+                
+                <table id="tabla_datatable" class="display nowrap" >   </table>
+                        
+                <div class="btn-group btn-block">
+                
+                        <button id="boton_añadir" class="btn btn-primary btn-block mr-2 rounded customb" , type="button">Añadir</button>
+                        <button id="boton_modificar" class="btn btn-secondary btn-block rounded" , type="button">Modificar</button>
+                        <button id="boton_eliminar" class="btn btn-danger btn-block ml-2 rounded" , type="button">Eliminar</button>
+
+                </div>
+
+            </div>
+                
+        </section>
+
+    </div>
+
+</body>
+
+
+</html>

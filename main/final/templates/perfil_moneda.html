@@ -1,0 +1,129 @@
+<html>
+
+<head>
+    
+    <title>UCABMART</title>
+    
+    <link rel="stylesheet"type="text/css" href="../static/add_ons/bootstrap-4.0.0-dist/css/bootstrap.css">
+    <link rel="stylesheet"type="text/css" href="../static/add_ons/datatables/css/jquery.dataTables.css">
+    
+    <link href="../static/css/perfil_moneda.css" rel="stylesheet" type="text/css" >
+
+    <link href="../static/css/mostrar_embedded.cddss" rel="stylesheet" type="text/css" >
+
+
+
+
+    <script src="../static/add_ons/jquery/jquery-1.11.2.js"></script>   
+    <script src="../static/add_ons/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="../static/add_ons/datatables/js/jquery.dataTables.js"></script>   
+    <script src="../static/add_ons/datatables/js/dataTables.bootstrap4.min.js"></script>
+
+
+    
+    <script src="../static/js/perfil_moneda.js"></script>
+
+
+    
+    <meta charset="utf-8">
+
+</head>
+
+<body>
+
+    <div id="fondo1">
+
+        <a href="../"><img type="image" id="logo" src="../static/media/UCABMART6.png"></a>
+
+        <div class="linea"></div>
+
+        <div id="loading">
+            <img id="loading-image" src="../static/media/loading.gif" alt="Loading..." />
+        </div>
+
+        <div id="fondo2">
+
+            <form>
+                
+                <div id="espacio"></div> 
+            
+                <div id="fondo3" class="form-group">
+                    
+                    <div id="margen" class="form-group">
+
+                        <h2> Datos de Moneda </h2>
+
+                        <button id="Modificar" class="btn btn-lg btn-secondary" type="button"> Modificar datos </button>
+                        
+                        <button id="Cancelar" class="btn btn-lg btn-secondary" type="button" style = "display: none;">  Cancelar Modificación </button>
+
+                        <button id="Confirmar" class="btn btn-lg btn-primary" type="submit" style = "display: none;" disabled>  Confirmar Modificación </button>
+
+                                                
+                        <div id="margen-campos">
+                        
+                            <div id="espacio"></div>  
+
+                            <div class="form-row">
+                                <div class="form-group col-md-5  pr-5">
+                                    <h4>Codigo</h4>  
+                                    <input id="id_moneda" name= "id_moneda" class="form-control" disabled>
+                                </div>
+                                <div class="form-group col  ">
+                                    <h4>Nombre</h4> 
+                                    <input id="inputmoneda" name="inputmoneda" class="form-control"  type="text" placeholder="Nombre de la moneda" disabled required autofocus>
+                                </div>
+                            </div>       
+                                    
+
+                            <div class="form-row mt-5 mb-5">
+                                <div class="form-group col-md-6">
+                                    <h4>Cotizacion Actual Bs.</h4>  
+                                    <input id="cot_actual" name= "cot_actual" class="form-control" disabled>
+                                    <h5 class="mt-2">Fecha Cotizacion</h5>  
+                                    <h6 id = "fechacot"></h6> 
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <h4 id="cot_nuevatl" style = "display: none;">Nueva Cotizacion Bs.</h4> 
+                                    <input id="cot_nueva" name="cot_nueva" class="form-control" type="text" pattern="[0-9]*" style = "display: none;"    disabled autofocus>
+                                </div>
+                            </div>  
+
+ 
+
+                            <div id="tabla3">
+            
+                                <h3 class="text-center mt-5">Historial de Cotizacion</h3>
+                            
+                                <table class = "mb-5" id="tabla_datatable" ></table>
+
+                            </div>
+
+
+
+
+                            
+
+                        </div>
+
+                    </div>  
+                    
+
+
+                    
+
+                </div> 
+                
+
+            </form>
+
+        </div>
+
+        
+    </div>   
+
+</body>
+    
+    
+
+</html>

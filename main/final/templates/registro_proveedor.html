@@ -1,0 +1,270 @@
+<html>
+ <head>
+    <title>UCABMART</title>
+
+    <link rel="stylesheet"type="text/css" href="../static/add_ons/bootstrap-4.0.0-dist/css/bootstrap.css">
+    <link rel="stylesheet"type="text/css" href="../static/add_ons/datatables/css/jquery.dataTables.css">
+    <link rel="stylesheet"type="text/css" href="../static/css/registro_proveedor.css">
+
+    <meta charset="utf-8"> 
+
+    <script src="../static/add_ons/jquery/jquery-1.11.2.js"></script>
+    <script src="../static/js/registro_proveedor.js"></script>
+
+ </head> 
+ 
+ <body>
+
+    <div id="fondo1"> 
+        <a href="../"><img type="image" id="logo" src="../static/media/UCABMART6.png"> </a>
+
+        <div class="linea"> </div>
+
+        <form>       
+        
+            <div id="fondo2">           
+
+                <div id="espacio"></div> 
+            
+                <div id="fondo3"> <!--Primer fondo blanco de la pagina-->
+
+                    <div id="margen"> <!--Margen para toda la pagina-->
+
+                        
+                        <h1 id="registro"> Registro </h1>
+
+                        <div id="margen-campos">
+
+                        <div id="espacio"></div> 
+                       
+                        <input id="inputrif" name="inputrif" class="form-control" type="text" placeholder="RIF" pattern="[A-Z]{1}[0-9]{9}" maxlength="10" required autofocus title="Debe poner una letra:'VEPJG' y 9 numeros " />
+
+                        <input id="inputtelefono" name="inputtelefono" class="form-control" type="text" pattern="[0-9]*" placeholder="Teléfono 1(Obligatorio)" minlength="7" maxlength="11" required autofocus>
+
+                        <div class="form-group" id="tipotlf"> 
+            
+                            <select name="tipotlf" id="tipotlf" class="custom-select browser-default" required autofocus>
+                                <option value="" selected disabled>TIPO</option>
+                                <option value="CASA">CASA</option>                            
+                                <option value="OFICINA">OFICINA</option>   
+                                <option value="CELULAR">CELULAR</option>  
+                                    
+                            </select>  
+            
+                        </div>
+
+                        
+                        <div id="espacio"></div>   <!-- Separacion entre fondos-->
+
+                     
+                        <div id="espacio"></div>  
+
+                        <input id="inputcorreo" name="inputcorreo" class="form-control" type="email" 
+                        pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" 
+                        placeholder="Correo Electrónico" required autofocus>
+
+                        <div id="espacio"></div>  
+
+                        <input id="inputden" name="inputden" class="form-control" type="text" placeholder="Denominacion Comercial" required autofocus> 
+
+                        <input id="inputrazon" name="inputrazon" class="form-control" type="text" placeholder="Razón Social" required autofocus>
+
+                        <div id="espacio"> </div> 
+
+                        <div id="Combo-boxes">
+                        
+                            <h4 id="Direccion-fisica">Dirección Fiscal </h4>
+    
+                            <div class="form-group" id="Estado"> 
+    
+                                 <select id="selectestado" name="selectestado" class="custom-select browser-default" required autofocus>
+                                    <option value="" selected disabled>ESTADO</option>
+                               </select>  
+    
+                            </div> 
+    
+                            <div class="form-group" id="Municipio"> 
+    
+                                <select name="selectmunicipio" id="selectmunicipio" class="custom-select browser-default" required autofocus>
+                                    <option value="" selected disabled>MUNICIPIO</option>
+                                </select>  
+    
+                            </div>
+    
+                            <div class="form-group" id="Parroquia"> 
+    
+                                <select name="selectparroquia" id="selectparroquia" class="custom-select browser-default" required autofocus>
+                                    <option value="" selected disabled>PARROQUIA</option>    
+                                </select>  
+    
+                            </div> 
+    
+                            <input id="inputdir" name="inputdir" class="form-control" type="text" placeholder="Direccion Fisica" autofocus> 
+    
+                        </div>
+    
+
+                        <button id="Continuar" class="btn btn-lg btn-secondary" type="button">  Continuar    </button>
+
+                        </div>
+
+                    </div> <!--Termina margen para toda la pagina-->
+
+                </div> <!--Termina primer fondo blanco de la pagina-->
+
+                <div id="fondo4" class="form-group">
+
+
+                    <div id="margen" class="form-group">
+                
+                        <h1 id="registro"> Registro </h1>
+                    
+                        <input  id="inputtelefono2" name="inputtelefono2" class="form-control" type="text" pattern="[0-9]*" placeholder="Teléfono 2 (Opcional)" minlength="7" maxlength="11" autofocus> 
+
+                        <div class="form-group" id="tipotlf2"> 
+                
+                            <select name="tipotlf2" id="tipotlf2" class="custom-select browser-default" autofocus>
+                                <option value="" selected disabled>TIPO</option>
+                                <option value="CASA">CASA</option>                            
+                                <option value="OFICINA">OFICINA</option>   
+                                <option value="CELULAR">CELULAR</option>   
+                            </select>  
+            
+                        </div>
+
+                        <input id="inputtelefono3" name="inputtelefono3" class="form-control" type="text" pattern="[0-9]*" placeholder="Telefono 3 (Opcional)" minlength="7" maxlength="11" autofocus> 
+
+                        <div class="form-group" id="tipotlf3"> 
+                
+                            <select name="tipotlf3" id="tipotlf3" class="custom-select browser-default" autofocus>
+                                <option value="" selected disabled>TIPO</option>
+                                <option value="CASA">CASA</option>                 
+                                <option value="OFICINA">OFICINA</option>   
+                                <option value="CELULAR">CELULAR</option>   
+                            </select>  
+            
+                        </div>
+
+                        <input id="inputpagina" name="inputpagina" class="form-control" type="text" placeholder="Pagina Web (Opcional)"/> 
+                    
+                        <input id="inputcorreo2" name="inputcorreo2" class="form-control" type="email" 
+                        pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" 
+                        placeholder="Correo Electrónico Alternativo (Opcional)" autofocus>
+
+                        <div id="Combo-boxes2">
+                            
+                            <h4> Dirección de Fisica (Opcional) </h4>
+                        
+                            <div class="form-group" id="Estado2"> 
+
+                                <select id="selectestado2" name="selectestado2" class="custom-select browser-default"   autofocus>
+                                    <option value="" selected disabled>ESTADO</option>
+                                    <option value="0">-</option>
+                                        
+                                    
+                                </select>  
+                
+                            </div> 
+                        
+                            <div class="form-group" id="Municipio2"> 
+                
+                                <select name="selectmunicipio2" id="selectmunicipio2" class="custom-select browser-default"  autofocus>
+                                    <option value="" selected disabled>MUNICIPIO</option>
+                                    <option value="1">-</option>    
+                                                        
+                                
+                                </select>  
+                
+                            </div>
+                
+                            <div class="form-group" id="Parroquia2"> 
+                
+                                <select name="selectparroquia2" id="selectparroquia2" class="custom-select browser-default"  autofocus>
+                                    <option value="default" selected disabled>PARROQUIA</option>
+                                    <option value="2">-</option>  
+                                                                
+                                </select>  
+                
+                            </div> 
+                
+                            <input id="inputdir2" name="inputdir2" class="form-control" type="text" placeholder="Direccion"  autofocus> 
+
+
+                        </div> 
+                        
+                        <h5 class="form-text text-danger">
+                            <p id="m_invalido"></p>
+                        </h5>
+
+                        <button id="Regresar" class="btn btn-lg btn-secondary" type="button">  Regresar</button>
+                        
+                        <button id="Continuar2" class="btn btn-lg btn-primary" type ="button"> Continuar</button>
+
+                    </div>
+
+                </div>      
+
+                <div id="fondo5">
+
+                    <div id="margen">
+
+                    <h1 id="registro"> Registro </h1>
+
+                    <div id="margen_de_contactos">
+
+                    <h3> Contactos Alternos </h3>
+
+                    <button id="boton-uno" class="btn btn-lg btn-primary botones" type="button"> Uno </button>
+                    <button id="boton-dos" class="btn btn-lg btn-secondary botones" type="button"> Dos </button>
+                            
+                    <div id="Datos-extra1" >
+                        
+                        <input type="text" name="Primer-nom" id="Primer-nom"  class="form-control tam" placeholder="Primer Nombre" required>
+                        <input type="text" name="Segundo-nom" id="Segundo-nom"  class="form-control tam" placeholder="Segundo Nombre" >
+                            
+                        <div id="espacio"> </div> 
+
+                        <input type="text" name="Primer-ap" id="Primer-ap"  class="form-control tam" placeholder="Primer Apellido" required>
+                        <input type="text" name="Segundo-ap" id="Segundo-ap"  class="form-control tam" placeholder="Segundo Apellido" >
+                            
+                        <div id="espacio"> </div> 
+
+                        <input type="text" pattern="[0-9]*" id="Cedula1" name="Cedula1" class="form-control tam" placeholder="Cedula" minlength="6" maxlength="8" required>
+                        <input type="text" pattern="[0-9]*" id="Telefono" name="Telefono" class="form-control tam" placeholder="Teléfono"  minlength="7" maxlength="11" required>
+
+                    </div>
+
+                    <div id="Datos-extra2" >
+                        
+                        <input type="text" name="Primer-nom2" id="Primer-nom2"  class="form-control tam" placeholder="Primer Nombre" >
+                        <input type="text" name="Segundo-nom2" id="Segundo-nom2"  class="form-control tam" placeholder="Segundo Nombre" >
+                            
+                        <div id="espacio"> </div>
+
+                        <input type="text" name="Primer-ap2" id="Primer-ap2"  class="form-control tam" placeholder="Primer Apellido" >
+                        <input type="text" name="Segundo-ap2" id="Segundo-ap2"  class="form-control tam" placeholder="Segundo Apellido" >
+                        
+                        <div id="espacio"> </div>
+
+                        <input type="text" pattern="[0-9]*" id="Cedula2" name="Cedula2" class="form-control tam" placeholder="Cedula" minlength="6" maxlength="8">
+                        <input type="text" pattern="[0-9]*" id="Telefono2" name="Telefono2" class="form-control tam" placeholder="Teléfono"  minlength="7" maxlength="11" >
+
+                    </div>     
+
+                    <button id="Regresar2" class="btn btn-lg btn-secondary" type="button">  Regresar</button>                        
+                    <!-- <button id="Continuar3" class="btn btn-lg btn-primary" type="submit"> Resgitrar </button>-->                           
+                    <button id="registrar" class="btn btn-lg btn-primary" type="submit"> Registrar </button>                           
+                            
+
+                </div>    
+
+
+                </div>    
+                                
+            </div>
+        
+        </form>
+
+    </div>
+ </body>
+</html>

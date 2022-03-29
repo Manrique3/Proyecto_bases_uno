@@ -1,0 +1,14 @@
+em_cedula,n_empleado,coen_entrada,coen_salida,rol,dia_reporte,tienda_reporte
+<<<<<<< HEAD
+31184080,"ELIAN MAXIMO, CARTER SILVA",07:00 AM,11:00 AM,Gerente de Tienda,2020-12-01,UCABmart - El Cafetal
+23346416,"CELESTE SOLEDAD, CHACON MACHADO",07:00 AM,12:00 PM,Coordinador de Promocion y Ventas,2020-12-01,UCABmart - El Cafetal
+26722685,"MARLENE DONATILA, ROSA ALMAZAN",07:00 AM,12:00 PM,Coordinador de Talento Humano,2020-12-01,UCABmart - El Cafetal
+12317873,"FABIANO TARSICIO, SANTAMARIA JAQUEZ",12:00 PM,07:00 PM,Jefe de Compras/Atencion al Cliente,2020-12-01,UCABmart - El Cafetal
+27811618,"VIVALDO TARSICIO, ROSAS JACKSON",12:00 PM,07:00 PM,Cajero,2020-12-01,UCABmart - El Cafetal
+25213954,"GRACIA BERENICE, BOCANEGRA RIZO",12:00 PM,07:00 PM,Cajero,2020-12-01,UCABmart - El Cafetal
+=======
+10558051,"VnCTOR LEnN, SORTO VELASQUEZ",07:00 AM,11:00 AM,Coordinador de despacho,2020-12-06,UCABmart - La Guaira
+30180754,"SILVIO MAXIMILIANO, GRANADOS CORDOVA",07:00 AM,12:00 PM,Despachador,2020-12-06,UCABmart - La Guaira
+15092674,"AYALA ADRIA, ARRIAGA COTA",12:00 PM,07:00 AM,Jefe de Almacen ,2020-12-06,UCABmart - La Guaira
+24271029,"PERLA GLORIA, LIMA VALENTIN",12:00 PM,07:00 AM,Jefe de Pasillo,2020-12-06,UCABmart - La Guaira
+>>>>>>> bc7dba63fb5a77c3a09278f49a61abc010424fe8

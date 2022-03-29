@@ -1,0 +1,109 @@
+<html>
+
+    <head>
+
+        <title>UCABMART</title>
+
+        <link rel="stylesheet" type="text/css" href="../static/add_ons/bootstrap-4.0.0-dist/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="../static/css/perfil_tienda.css"  >
+        
+        <script src="../static/add_ons/jquery/jquery-1.11.2.js"></script>
+        <script src="../static/js/perfil_tienda.js"></script>
+
+        <meta charset="utf-8">
+
+
+    </head>    
+
+    <body>
+        
+        <div id="fondo1">
+
+            <a href="../"><img type="image" id="logo" src="../static/media/UCABMART6.png"></a>
+
+            <div class="linea"></div>
+
+            <div id="loading">
+                <img id="loading-image" src="../static/media/loading.gif" alt="Loading..." />
+            </div>
+            
+            <div id="fondo2">
+
+                <form>
+                    
+                    <div id="espacio"></div> <!--Demasiado chimbo esto, separa el cuadro rojo del blanco-->
+                
+                    <div id="fondo3" class="form-group">
+                        
+                        <div id="margen" class="form-group">
+
+                            <h2> Datos de la Tienda </h2>
+
+                            <button id="Modificar" class="btn btn-lg btn-secondary" type="button"> Modificar datos </button>
+
+                            <button id="Cancelar" class="btn btn-lg btn-secondary" type="button">  Cancelar Modificación </button>
+
+                            <button id="Confirmar" class="btn btn-lg btn-primary" type="submit">  Confirmar Modificación </button>
+
+                            <div id="Margen-campos">
+
+                                <h4> Código de la tienda </h4>
+
+                                <input id="id_user" name= "id_user" class="form-control"  disabled>
+
+
+                                <h4 id="tienda"> Nombre de la Tienda </h4>                            
+
+                                <input id="inputtienda" name="inputtienda" class="form-control" required disabled>
+
+                                <div id="Combo-boxes">
+                                
+                                    <h4>Dirección Fisica </h4>
+                            
+                                    <div class="form-group" id="Estado"> 
+  
+                                        <select id="selectestado" name="selectestado" class="custom-select browser-default" required disabled autofocus>
+                                            <option value="" selected disabled>ESTADO</option>
+                                     
+                                        </select>  
+                    
+                                    </div> 
+                            
+                                    <div class="form-group" id="Municipio"> 
+                    
+                                        <select name="selectmunicipio" id="selectmunicipio" class="custom-select browser-default" disabled required autofocus>
+                                            <option value="" selected disabled>MUNICIPIO</option>
+                                        </select>  
+                    
+                                    </div>
+                    
+                                    <div class="form-group" id="Parroquia"> 
+                    
+                                        <select name="selectparroquia" id="selectparroquia" class="custom-select browser-default" disabled required autofocus>
+                                            <option value="default" selected disabled>PARROQUIA</option>
+                                        </select>  
+                    
+                                    </div> 
+                    
+                                    <input id="inputdir" name="inputdir" class="form-control" type="text" placeholder="Direccion" required disabled autofocus> 
+  
+                            
+                                </div>  
+
+                            </div>    
+
+                        </div>
+                      
+                    </div>
+
+                </form>
+            
+            </div>    
+
+        </div>
+
+    </body>
+
+
+
+</html>

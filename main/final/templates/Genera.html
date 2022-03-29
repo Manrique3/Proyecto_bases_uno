@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>Deberia Generar </title>
+        <link rel="stylesheet"type="text/css" href="../static/add_ons/bootstrap-4.0.0-dist/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="../static/css/Genera.css">
+        <script src="../static/add_ons/jquery/jquery-1.11.2.js"></script>        
+        <script src="../static/js/Genera.js"> </script> 
+        <meta charset="utf-8">
+        
+    </head>   
+    <body>
+        <form>
+            
+            <small class="form-text text-danger mb-2">
+                <p id="m_invalido"></p>
+            </small>
+
+            <h1>GENERACION DE REPORTES UCABMART</h1>
+            
+            <div id="fondo1">
+            
+                <div id="fondo2">
+                
+                    <select id="selecttipo" name="selecttipo" class="custom-select browser-default">
+                        <option value=""selected disabled>TIPO DE REPORTE</option>
+                        <option value="Asistencia">ASISTENCIA</option>
+                        <option value="Horario">HORARIO</option>
+                        <option value="Ingresos">INGRESOS</option>
+                        <option value="Frecuentes">CLIENTES FRECUENTES</option>
+                        <option value="Productos">PRODUCTOS MAS VENDIDOS</option>
+                        <option value="Mes">MESES PRODUCTIVOS</option>
+                        <option value="Factura">FACTURA</option>
+                    </select>
+
+                    
+
+                        
+                    <div id="ASISTENCIA">
+
+                        <h3>REPORTE DE ASISTENCIA  </h3>
+                        <input id="Fecha" name="Fecha" placeholder="YYYY-MM-DD" type="date" required>
+                        <input id="Tienda" name="Tienda" placeholder="numero" required>
+
+                    
+                    </div>
+
+                    
+                    <div id="HORARIO">
+                    
+                        <h3>REPORTE DE HORARIO </h3>
+                        <input id="Tienda1" NAME="Tienda1" placeholder="Num Tienda" required>
+                        <input id="Fecha1" NAME="Fecha1" placeholder="YYYY-MM-DD" required>
+                        <input id="Fecha2" NAME="Fecha2" placeholder="YYYY-MM-DD" required>
+                        
+                    </div>
+                
+
+                    <div id="INGRESO_EGRESO">
+                        
+                    
+                        <h3>REPORTE DE INGREO Y EGRESOS </h3>
+                        <input id="Fecha1"name="Fecha1" type="date" required>
+                        <input id="Fecha2"name="Fecha2" type="date" required>
+                    
+                    </div>    
+
+                    
+                    <div id="FRECUENTES">
+                    
+                        <h3>REPORTE CLIENTES FRECUENTES </h3>  
+                        <h5>Listado de clientes frecuentes por tienda</h5>
+                        
+                    </div>   
+                    
+                    <div id="MES">
+                    
+                        <h3>MESES PRODUCTIVOS </h3>  
+                        <h5>Listado de clientes frecuentes por tienda</h5>
+                       
+                    </div>   
+
+                    <div id="FACTURA">
+                        
+                    
+                        <h3>FACTURAS DE COMPRAS </h3>
+                        <input id="Factura"name="Factura" type="text" placeholder="Numero de factura" required>
+                        
+                    
+                    </div>    
+
+                    <button id="Genera0" name="Genera0" class="btn btn-lg btn-primary" type ="button">Generar</button>
+                </div>    
+            </div>
+        </form>        
+    </body>    
+
+
+</html>

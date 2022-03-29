@@ -1,0 +1,21 @@
+1-. MS DOS
+
+2-. Codigo abierto significa que el software, codigo y otras partes como su licencia son libres para el publico
+
+3-. GNU
+
+4-. Octubre de 1955
+
+5-. Busca sustituir a UNIX, ya que este no es de software codigo libre
+
+6-. Procesamiento por lotes de IBM
+
+7-. Microsoft, se dice que la razon para que exista codigo propietario es monetizacion y el plagio, ya que para usar dicho software hay que pagar una licencia, ademas el software solo permite ver parte del codigo y por consecuente no puede ser copiado al pie
+
+8-. Si, pero no a traves del software en si, ya que el mismo es gratis, el software opensource se lucra a traves de otros medios como donaciones, patrocinios, otros servicios de software, etc
+
+9-. Es un servidor web
+
+10-. Tarjetas perforadas como input e impresiones como output
+
+

@@ -1,0 +1,323 @@
+#loading {
+    width: 150%;
+    height: 100%;
+    top: 0;
+    left: -320px;
+    position: fixed;
+    display: block;
+    opacity: 0.7;
+    background-color: #fff;
+    z-index: 99;
+    text-align: center;
+}
+
+#loading-image {
+    position: absolute;
+    width: 250px;
+    top: 20%;
+    left: 50%;
+    z-index: 100;
+    margin-top: -150px;
+    margin-left: -150px;
+
+}
+
+
+#fondo1{
+    background-color:rgba(245, 244, 244, 0.967);
+    width: 1170px;    
+    height: 1400px;
+    border-radius: 5px 5px 5px 5px;
+    border: 0px #80808000 solid;
+    
+    
+    position: relative;
+    margin: 0 auto; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+ 
+}
+
+body { 
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background: linear-gradient(to left, #1107d3,#3dd2fffd);  
+    position: relative;
+    height: 2000px;
+    padding-left: 40px;
+    padding-right: 40px;
+    transform: scale(0.7);
+    transform-origin: top center;
+    
+}
+
+#logo{
+    height: 100px;
+    width:50%;
+    position: relative;
+    right: -300px;
+    top:10px;
+}
+
+
+.linea{
+    position: relative;
+    top:20px;
+    background-color:#000000;
+    height: 4px;
+    width: 1170px;
+
+}
+
+#fondo2{
+    background-color: #f8176d;
+    width: 1170px;
+    height: 2050px;
+    position: relative;
+    top: 20px;
+    border-radius: 5px 5px 5px 5px;
+    border: 3px rgba(128, 128, 128, 0) solid;
+}
+
+#fondo3{
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: white;
+    height: 2000px;
+    width:1116px;
+    border-radius: 5px 5px 5px 5px;
+    border: 3px rgba(128, 128, 128, 0) solid;
+}
+#margen{
+    margin-left:80px;
+    margin-top: 80px;
+    padding: auto;
+    position: relative;
+    right: -100px;
+}
+#espacio{
+    height: 4px;
+    width: 1000px;
+}
+h2{    
+    text-decoration: underline;
+}
+#Modificar{
+    border-radius: 3px 3px 3px 3px;
+    border: 1px black groove;
+    position: relative;
+    right: -425px;
+    top: -30px;     
+}
+#Carnet{
+    border-radius: 3px 3px 3px 3px;
+    border: 1px black groove;
+    position: relative;
+    right: -425px;
+    top: -30px;     
+}
+#Cancelar{
+    position:relative;
+    right: -270px;
+    top: -30px;
+    display: none;
+}
+#Confirmar{
+    position:relative;
+    right: -510px;
+    top: -78px;
+    display: none;
+}
+#botones-eliminar{
+    background-color: white;
+}
+
+#Margen-campos{
+    margin-top: 50px;
+
+}
+#id_user{
+    width: 250px;
+
+}
+#rif{
+    position: relative;
+    right: -500px;
+    top:-80px;
+}
+#inputrif{
+    width: 250px;
+    position: relative;
+    right: -505px;
+    top: -75px;
+}
+#inputtelefono{
+    width: 250px;
+    position: relative;
+}
+#tipotlf1{
+    position: relative;
+    top: -1px;
+    right: -150px;
+    width: 100px;
+}
+#inputtelefono2{
+    width: 250px;
+    position: relative;
+    top:-92px;
+    right: -255px;
+}
+#tipotlf2{
+    position: relative;
+    top: -94px;
+    right: -405px;
+    width: 100px;
+}
+#inputtelefono3{
+    width: 250px;
+    position: relative;
+    top: -184px;
+    right: -510px;
+}
+#tipotlf3{
+    position: relative;
+    top: -184px;
+    right: -660px;
+    width: 100px;
+}
+#Alinear{
+    position: relative;
+    top: -130px;
+
+}
+#inputrazon{
+    width: 250px;  
+}
+#inputpagina{
+    width: 350px;
+    position: relative;
+    top: 5px;
+}
+
+
+
+#dencom{
+    position: relative;
+    top: -150px;
+    right: -505px;
+}
+#inputden{
+    width: 250px;
+    position: relative;
+    top: -150px;
+    right: -505px;
+}
+
+#capital{
+    position: relative;
+    top: -145px;
+    right: -505px;
+}
+#inputcapital{
+    width: 250px;
+    position: relative;
+    top: -145px;
+    right: -505;
+}
+#tienda-registro{
+    position: relative;
+    top: -70px;
+}
+#tiendaregistro{
+    width: 758px;
+    position: relative;
+    top: -65px;
+}
+
+#correo{
+    position: relative;
+    top: -30px;
+}
+#inputcorreo{
+    width: 400px;
+    position: relative;
+    top: -20px;
+}
+#contraseña{
+    position: relative;
+    top: -101px;
+    right: -505px;
+}
+#inputcont{
+    width: 250px;
+    position: relative;
+    top: 5px;
+}
+
+#Combo-boxes{
+    position: relative;
+    top: -60px;
+}
+#Estado{
+    width: 300px;    
+}
+#Municipio{
+    width: 300;
+    position: relative;
+    top: -54px;
+    right: -270px;
+}
+#Parroquia{
+    width: 300;
+    position: relative;
+    top:-109px;
+    right: -530px;
+}
+#inputdir{
+    width: 758px;
+    position: relative;
+    top: -80px;
+
+}
+
+#Combo-boxes2{
+    position: relative;
+    top: -100px;
+}
+#Estado2{
+    width: 300px;    
+}
+#Municipio2{
+    width: 300;
+    position: relative;
+    top: -54px;
+    right: -270px;
+}
+#Parroquia2{
+    width: 300;
+    position: relative;
+    top:-109px;
+    right: -530px;
+}
+#inputdir2{
+    width: 758px;
+    position: relative;
+    top: -80px;
+
+}
+
+#tabla3{
+    width: 600px;
+    position: relative;
+    top: -100px;
+    right: -100px;
+    border: 2px black groove;
+    border-radius: 3px 3px 3px 3px;
+    padding: 50px;
+    padding-bottom: 40px;
+}
+
+
+
+

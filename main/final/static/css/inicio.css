@@ -1,0 +1,47 @@
+body {
+    padding-bottom: 40px;
+    background: linear-gradient(to left, #1107d3,#3dd2fffd); 
+    height: auto;
+}
+
+#logo{
+    width: 300px;
+    position: relative;
+    top:20px
+
+}
+
+#itempanel{
+    max-width: 770px;
+    padding: 15px;
+    margin: 0 auto;
+    position: relative;
+    top:80px;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 2px 2px 2px 2px;
+    border: 2px rgb(41, 41, 41) groove;
+}
+.buscador{
+    
+    position: relative;
+    top:25px;
+    
+
+}
+#selectpriv{
+    position:relative;
+    top:25px;
+    width: 240px;
+
+}
+#PANEL{
+    background-color: rgb(247, 247, 247);
+    height: 100px;
+    min-width: 1200px;  
+    max-width: 1500px;  
+}

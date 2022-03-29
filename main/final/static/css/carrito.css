@@ -1,0 +1,43 @@
+
+
+#posicion{
+    position:relative;
+    top: 40px;
+}
+
+
+#margen{
+    margin-left: 80px;
+    margin-top: 50px;  
+    width: 1100px ; 
+
+}
+
+.customb{
+    
+    margin-top: 8px;
+    height: 48px;
+}
+
+#tabla_datatable{
+    padding-top:20px;
+    padding-bottom: 10px;
+    width: 700px;
+    margin: 0 auto;
+
+}
+
+.tamaño{
+    width: 320px;
+    position: relative;
+    top: 50px;
+}
+#inputdocmt{
+    position: relative;
+    right: -258px;
+    top:-4px;
+    width: 238px;
+
+}
+
+

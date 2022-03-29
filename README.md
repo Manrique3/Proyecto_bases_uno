@@ -1,1 +1,2 @@
 # Proyecto_bases_uno
+Proyecto de Ucabmart, una pagina web con gestión de venta de productos y cliente, con registro de clientes y empleados en el proyecto, todo los datos almacenados en una base de datos de postgres, con diseño e implementación en el backend con el framework flask.

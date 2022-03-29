@@ -1,0 +1,136 @@
+#loading {
+    width: 150%;
+    height: 100%;
+    top: 0;
+    left: -320px;
+    position: fixed;
+    display: block;
+    opacity: 0.7;
+    background-color: #fff;
+    z-index: 99;
+    text-align: center;
+}
+  
+#loading-image {
+    position: absolute;
+    width: 250px;
+    top: 20%;
+    left: 50%;
+    z-index: 100;
+    margin-top: -150px;
+    margin-left: -150px;
+    
+}
+
+
+
+
+#fondo1{
+    background-color:rgba(245, 244, 244, 0.967);
+    width: 1170px;    
+    height: 1400px;
+    border-radius: 5px 5px 5px 5px;
+    border: 0px #80808000 solid;
+    
+    
+    position: relative;
+    margin: 0 auto; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+ 
+}
+
+body { 
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background: linear-gradient(to left, #1107d3,#3dd2fffd);  
+    position: relative;
+    height: 2000px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+    transform: scale(0.7);
+    transform-origin: top center;
+}
+
+#logo{
+    height: 100px;
+    width:50%;
+    position: relative;
+    right: -300px;
+    top:10px;
+}
+
+
+.linea{
+    position: relative;
+    top:20px;
+    background-color:#000000;
+    height: 4px;
+    width: 1170px;
+
+}
+#fondo2{
+    background-color: #f8176d;
+    width: 1170px;
+    height: 1700px;
+    position: relative;
+    top: 20px;
+    border-radius: 5px 5px 5px 5px;
+    border: 3px rgba(128, 128, 128, 0) solid;
+}
+
+#fondo3{
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: white;
+    height: 1650px;
+    width:1116px;
+    border-radius: 5px 5px 5px 5px;
+    border: 3px rgba(128, 128, 128, 0) solid;
+}
+#margen{
+    margin-top: 80px;
+    margin-right: 150px;
+    margin-left: 150px;
+    position: relative;
+
+}
+
+#espacio{
+    height: 20px;    
+    width: 900px;
+}
+
+h2{    
+    text-decoration: underline;
+}
+
+#Modificar{
+    border-radius: 3px 3px 3px 3px;
+    border: 1px black groove;
+    position: relative;
+    right: -635px;
+    top: -30px;     
+}
+
+#Cancelar{
+    position:relative;
+    right: -330px;
+    top: -30px;
+}
+#Confirmar{
+    position:relative;
+    right: -570px;
+    top: -78px;
+}
+#botones-eliminar{
+    background-color: white;
+}
+
+
+#margen-campos{
+    margin-top: 40px;
+}
+

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>UCABMART</title>
+    
+    <link rel="stylesheet"type="text/css" href="../static/add_ons/bootstrap-4.0.0-dist/css/bootstrap.css">
+    <link rel="stylesheet"type="text/css" href="../static/add_ons/datatables/css/jquery.dataTables.css">
+    
+    <link rel="stylesheet" type="text/css" href="../static/css/carrito_fisica.css">
+
+
+    
+    <script src="../static/add_ons/jquery/jquery-1.11.2.js"></script>   
+    <script src="../static/add_ons/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="../static/add_ons/datatables/js/jquery.dataTables.js"></script>   
+    <script src="../static/add_ons/datatables/js/dataTables.bootstrap4.min.js"></script>
+
+
+    <script src="../static/js/carrito.js"> </script>
+    <script src="../static/js/carrito_fisica.js"> </script>
+
+
+    <meta charset="utf-8">
+
+</head>
+
+<body>
+
+
+    <div id="fondo1"> 
+        <a href="../"><img type="image" id="logo" src="../static/media/UCABMART6.png"> </a>
+
+        <div class="linea"> </div>
+
+        <div id="fondo2">           
+
+            <div id="espacio"></div> 
+        
+            <div id="fondo3"> 
+
+                <div id="margen"> 
+
+                    <h1 id="titulo1"> Datos del Cliente </h1>
+
+
+                    <input id="inputitem" name="inputitem" class="form-control" type="text"  placeholder="ID/Cedula/Rif" required autofocus>
+
+                    <button id="buscar" class="btn btn-lg btn-secondary" type="button">    Buscar    </button>
+
+                
+                    <div id="espacio"></div>   
+                        
+                    
+                    
+                    <div class="card mr-5 mt-4">
+                        <div class="card-header">
+                            <h2 id= "datos_clid">
+
+                            </h2>
+                        </div>
+                        <div class="card-body">
+                            <h4 id ="datos_cliente">
+                                
+
+                            </h4>
+                        </div>
+                    </div>
+                        
+
+                    
+
+                    <div id="espacio"> </div> 
+
+                    <button id="Continuar" class="btn btn-lg btn-primary" type="button">  Continuar    </button>
+
+                </div> 
+
+            </div> 
+
+            <div id="fondo4" class="form-group">
+
+                <div id="margen" class="form-group">
+            
+                    <h1 id="titulo2"> Carrito </h1>
+                                    
+                    <div id="espacio"></div>   
+                    
+                    
+                    <div id="tabla_carrito">                      
+                        
+                        <table id="tabla_datatable" class="display nowrap">  </table>
+                        
+                            
+
+                        <h3 id="total"></h3>
+
+
+                        <div class="input-group mt-5">
+                                                        
+                            <input type="text" id="codigo_producto" class="form-control mr-3" placeholder="Codigo Producto" aria-label="Codigo Producto" aria-describedby="basic-addon2">
+
+                            <span class="input-group-text mr-3" id="basic-addon2"> x </span>
+
+                            <input type="text" 
+                            id="cantidad_producto" class="form-control mr-3" placeholder="Cantidad" aria-label="Cantidad" aria-describedby="basic-addon1">
+
+                            <button id= "boton_añadir" class="btn btn-primary mr-3" type="button">Añadir</button>
+                            
+                            <button id= "boton_eliminar" class="btn btn-danger" type="button">Eliminar</button>
+                            
+                        </div>
+                        
+
+                        
+
+                        
+        
+                    </div>
+
+
+                    <button id="Regresar" class="btn btn-lg btn-secondary" type="button">  Regresar</button>
+                    
+                    <button id="Continuar2" class="btn btn-lg btn-primary" type ="button"> Pagar</button>
+
+                </div>
+
+            </div>      
+      
+                            
+        </div>
+        
+    
+    </div>                    
+</body>           
+</html>

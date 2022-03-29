@@ -1,0 +1,431 @@
+#fondo1{
+    background-color:rgba(245, 244, 244, 0.967);
+    width: 1070px;    
+    height: 800px;
+    border-radius: 5px 5px 5px 5px;
+    border: 0px #80808000 solid;
+
+    position: relative;
+    margin: 0 auto; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background: linear-gradient(to left, #1107d3,#3dd2fffd);  
+    position: relative;
+    height: 1100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+    transform: scale(0.7);
+    transform-origin: top center;
+    
+}
+#logo{
+    height: 100px;
+    width:50%;
+    position: relative;
+    right: -270px;
+    top:10px;
+
+}
+.linea{
+    position: relative;
+    top:20px;
+    background-color:black;
+    height: 4px;
+    width: 1070px;
+
+}
+#fondo2{
+    background: linear-gradient(#f8176d, #eb7b7b); 
+    width: 1070px;
+    height: 850px;
+    position: relative;
+    top: 20px;
+    border-radius: 5px 5px 5px 5px;
+    border: 3px rgba(128, 128, 128, 0) solid;
+}
+#fondo3{
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: white;
+    height: 800px;
+    width:1016px;
+    border-radius: 5px 5px 5px 5px;
+    border: 3px grey solid;   
+}
+#fondo4{ 
+    display:none;       
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: white;
+    height: 800px;
+    width:1016px;
+    border-radius: 5px 5px 5px 5px;
+    border: 3px grey solid;   
+}
+#fondo5{
+    display:none;       
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: white;
+    height: 800px;
+    width:1016px;
+    border-radius: 5px 5px 5px 5px;
+    border: 3px grey solid; 
+}
+
+#espacio{
+    height: 4px;
+    width: 1060px;
+}
+#registro{
+    position: relative;
+    right: -300px;
+    text-decoration: underline;
+}
+
+#margen{    
+        margin-left: 100px;
+        margin-top: 50px;       
+    
+}
+#margen-campos{
+    position: relative;
+    top: 40px;
+
+}
+#inputrif{
+    width: 200px;
+    position: relative;
+    right: -120px;
+}
+#inputtelefono{
+    width: 200px;
+    position: relative;
+    right: -470px;
+    top: -40px;
+}
+#tipotlf{
+    position: relative;
+    top: -20px;
+    right: -285px;
+    width: 100px;
+}
+
+#tienda-registro{
+    width: 732px;
+    position: relative;
+    right: -120px;
+    top: -50px;
+}
+#inputcorreo{
+    width: 550px;
+    position: relative;
+    right: -120px;
+    top:-40px;
+}
+#inputrazon{
+    width: 200px;
+    position: relative;
+    right: -120px;
+    top: -54px;
+}
+#inputden{
+    width: 250px;
+    position: relative;
+    top: -16px;
+    right: -420px;
+}
+#Combo-boxes{
+    position: relative;
+    right: -110px;
+    top:-30px;
+    width: 300px;    
+}
+
+#Parroquia{
+    width: 230px;
+    position: relative;
+    right: -386px;
+    top:-103px;
+}
+
+#Municipio{
+    position: relative;
+    right: -196px;
+    top:-49px;
+    width: 230px;
+}
+#Estado{
+    position: relative;
+    right: -6px;
+    top:5px;
+    width: 230px;
+}
+#inputdir{
+    position: relative;
+    top:-80px;
+    right: -6px;
+    width: 550px;
+}
+
+#Continuar{ 
+    width: 150px;
+    height: 45px;
+    position: relative;
+    top:-50px;
+    right:-520px;
+    border: 2px black solid;
+    border-radius: 3px 3px 3px 3px;
+}
+#Continuar:hover{
+    box-shadow: 2px 2px 5px #999;
+}
+#inputtelefono2{
+    width: 200px;
+    position: relative;
+    right: -105px;
+    top:39px
+}
+#tipotlf2{
+    position: relative;
+    top: 19px;
+    right: -102px;
+    width: 100px;
+}
+#inputtelefono3{
+    width: 200px;
+    position: relative;
+    right: -460px;
+    top: -55px;
+}
+#tipotlf3{
+    position: relative;
+    top: -28px;
+    right: -280px;
+    width: 100px;
+}
+
+#inputpagina{
+    width: 360px;
+    position: relative;
+    right: -105px;
+    top:-35px;
+}
+#inputcorreo2{
+    width: 560px;
+    position: relative;
+    right: -103px;
+    top:10px;
+}
+#Combo-boxes2{
+    position: relative;
+    right: -100px;
+    top:20px;
+    width: 300px;    
+}
+
+#Parroquia2{
+    width: 230px;
+    position: relative;
+    right: -386px;
+    top:-103px;
+}
+
+#Municipio2{
+    position: relative;
+    right: -196px;
+    top:-49px;
+    width: 230px;
+}
+#Estado2{
+    position: relative;
+    right: -6px;
+    top:5px;
+    width: 230px;
+}
+#inputdir2{
+    position: relative;
+    top:-100px;
+    right: -6px;
+    width: 555px;
+}
+
+h5{
+    position: relative;
+    right: -110px;
+    bottom: 30px;
+}
+#Regresar{ 
+    width: 150px;
+    height: 45px;
+    position: relative;
+    top:-35px;
+    right:-335px;
+    border: 2px black solid;
+    border-radius: 3px 3px 3px 3px;
+}
+#Regresar:hover{
+    box-shadow: 2px 2px 5px #999;
+}
+#Continuar2{ 
+    width: 150px;
+    height: 45px;
+    position: relative;
+    top:-35px;
+    right:-355px;
+    border: 2px black solid;
+    border-radius: 3px 3px 3px 3px;
+}
+#Continuar2:hover{
+    box-shadow: 2px 2px 5px #999;
+}
+
+#inputpagina2{
+    width: 400px;
+    position: relative;
+    right: -100px;
+    top:90px
+}
+
+
+
+h3{
+    position: relative;
+    top: -30px;
+    right: -300px;
+
+}
+.botones{
+    width: 70px;
+    height: 40px;
+    position: relative;
+    top: -70px;
+    right: -90px;
+}
+#margen_de_contactos{
+    position: relative;
+    top: 150px;
+
+}
+#Datos-extra1{
+    border: 1px black solid;
+    border-radius: 2px 2px 2px 2px;   
+    padding: 5px;
+    width: 650px; 
+    height: 200px;
+    position: relative;
+    top: -70px;
+    right: -90px;
+}
+
+#Primer-nom{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 200px;
+}
+#Segundo-nom{
+    margin-left: 400px;
+    position: relative;
+    top: -39px;
+    width: 200px;
+}
+#Primer-ap{
+    margin-top: -20px;
+    margin-left: 20px;
+    width: 200px;
+}
+#Segundo-ap{
+    position: relative;
+    right: -400px;
+    top: -40px;
+    width: 200px;
+}
+#Cedula1{
+    position: relative;
+    top:-25px;
+    right: -20px;
+    width: 200px;
+}
+#Telefono{
+    position: relative;
+    top: -63px;
+    right: -400px;
+    width: 200px;
+}
+#Datos-extra2{
+    display: none;
+    border: 1px black solid;
+    border-radius: 2px 2px 2px 2px;   
+    padding: 10px;
+    width: 650px; 
+    height: 200px;
+    position: relative;
+    top: -70px;
+    right: -90px;
+}
+#Primer-nom2{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 200px;
+}
+#Segundo-nom2{
+    margin-left: 400px;
+    position: relative;
+    top: -39px;
+    width: 200px;
+}
+#Primer-ap2{
+    margin-top: -20px;
+    margin-left: 20px;
+    width: 200px;
+}
+#Segundo-ap2{
+    position: relative;
+    right: -400px;
+    top: -40px;
+    width: 200px;
+}
+#Cedula2{
+    position: relative;
+    top:-25px;
+    right: -20px;
+    width: 200px;
+}
+#Telefono2{
+    position: relative;
+    top: -63px;
+    right: -400px;
+    width: 200px;
+}
+
+#Regresar2{
+    width: 150px;
+    height: 45px;
+    position: relative;
+    top:-20px;
+    right:-385px;
+    border: 2px black solid;
+    border-radius: 3px 3px 3px 3px;
+}
+#Regresar2:hover{
+    box-shadow: 2px 2px 5px #999;
+}
+
+#registrar{ 
+    width: 150px;
+    height: 45px;
+    position: relative;
+    top:-20px;
+    right:-400px;
+    border: 2px black solid;
+    border-radius: 3px 3px 3px 3px;
+}
+#registrar:hover{
+    box-shadow: 2px 2px 5px #999;
+}

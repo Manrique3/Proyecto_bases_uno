@@ -1,0 +1,117 @@
+#fondo1{
+    background-color:rgba(245, 244, 244, 0.967);
+    width: 1070px;    
+    height: 900px;
+    border-radius: 5px 5px 5px 5px;
+    border: 0px #80808000 solid;
+
+    position: relative;
+    margin: 0 auto; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body { 
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background: linear-gradient(to left, #1107d3,#3dd2fffd);  
+    position: relative;
+    height: 1100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    transform: scale(0.7);
+    transform-origin: top center;
+
+}
+#fondo2{
+    background: linear-gradient(#f8176d, #eb7b7b); 
+    width: 1070px;
+    height: 850px;
+    position: relative;
+    top: 20px;
+    border-radius: 5px 5px 5px 5px;
+    border: 3px rgba(128, 128, 128, 0) solid;
+}
+#logo{
+    height: 100px;
+    width:50%;
+    position: relative;
+    right: -270px;
+    top:10px;
+   
+}
+h1{
+    position: relative;
+    right: -350px;
+}
+#ASISTENCIA{
+    position: relative;
+    top:90px;
+    right: -60px;
+    height: 40px;
+}
+#Fecha{
+    width: 150px;
+    height: 35px;
+}
+#Tienda{
+    height: 35px;
+}
+
+#selecttipo{
+    width: 250px;
+    position: relative;
+    top: 30px;
+    right: -800px;
+
+}
+#Genera0{
+    position: relative;
+    right: -945px;
+
+
+}
+#HORARIO{
+    position: relative;
+    top:250px;
+    right: -60px;
+    height: 40px;
+}
+#INGRESO_EGRESO{
+    position: relative;
+    top:350px;
+    right: -60px;
+    height: 40px;
+}
+#Fecha1{
+    width: 150px;
+    height: 35px;
+}
+#Fecha2{
+    width: 150px;
+    height: 35px;
+}
+#FRECUENTES{
+    position: relative;
+    top:90px;
+    right: -80px;
+    height: 40px;
+}
+#MES{
+    position:relative;
+    top:30px;
+    right: -50px;
+
+}
+#FACTURA{
+    position:relative;
+    top:80px;
+    right:-60px;
+    height:40px;
+}
+#Factura{
+    position:relative;
+    top:30px;
+  
+
+}
